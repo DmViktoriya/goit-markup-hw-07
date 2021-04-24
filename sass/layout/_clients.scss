@@ -17,10 +17,7 @@
 .clients__item {
   fill: var(--icon-color);
 }
-.clients__link:hover .clients__icon,
-.clients__link:focus .clients__icon {
-  fill: var(--accent-color);
-}
+
 .clients__link {
   display: flex;
   justify-content: center;
@@ -35,6 +32,11 @@
   &:hover,
   &:focus {
     border: 1px solid var(--accent-color);
+    fill: var(--accent-color);
+  }
+
+  &:hover .clients__icon,
+  &:focus .clients__icon {
     fill: var(--accent-color);
   }
 }

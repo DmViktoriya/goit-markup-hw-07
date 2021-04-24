@@ -20,6 +20,11 @@
     background-color: var(--accent-color);
     fill: var(--button-letters-active);
   }
+
+  &:hover .social-icons__icon,
+  &:focus .social-icons__icon {
+    fill: var(--button-letters-active);
+  }
 }
 
 .social-icons__icon {
@@ -30,10 +35,6 @@
 }
 .social-icons__item:not(:last-child) {
   margin-right: 10px;
-}
-.social-icons__link:hover .social-icons__icon,
-.social-icons__link:focus .social-icons__icon {
-  fill: var(--button-letters-active);
 }
 
 .footer-social-icons__link {
