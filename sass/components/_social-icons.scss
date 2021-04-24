@@ -14,7 +14,14 @@
   fill: var(--button-letters-active);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: var(--button-letters-active);
+  }
 }
+
 .social-icons__icon {
   width: 20px;
   height: 20px;
@@ -28,15 +35,7 @@
 .social-icons__link:focus .social-icons__icon {
   fill: var(--button-letters-active);
 }
-.social-icons__link:hover,
-.social-icons__link:focus {
-  background-color: var(--accent-color);
-  fill: var(--button-letters-active);
-}
-.footer-social-icons__link:hover,
-.footer-social-icons__link:focus {
-  background-color: var(--accent-color);
-}
+
 .footer-social-icons__link {
   display: flex;
   justify-content: center;
@@ -46,6 +45,11 @@
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 .footer-social-icons__icon {
   width: 20px;

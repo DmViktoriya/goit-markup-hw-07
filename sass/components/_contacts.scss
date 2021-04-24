@@ -19,6 +19,12 @@
   padding-top: 32px;
   padding-bottom: 32px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--accent-color);
+  }
 }
 .contacts__envelope,
 .contacts__smartphone {
@@ -26,11 +32,7 @@
   margin-right: 10px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contacts__link:hover,
-.contacts__link:focus,
-.contacts__link:active {
-  color: var(--accent-color);
-}
+
 .contacts__link:hover .contacts__envelope,
 .contacts__link:focus .contacts__envelope,
 .contacts__link:hover .contacts__smartphone,
