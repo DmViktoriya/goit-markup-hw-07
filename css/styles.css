@@ -100,17 +100,17 @@ p {
 }
 /* Меню */
 .header-nav,
-.site-nav {
+.navigation {
   display: flex;
   align-items: center;
 }
-.site-nav .list {
+.navigation__list {
   display: flex;
 }
 .page-header {
   border-bottom: 1px solid #ececec;
 }
-.site-nav-item:not(:last-child) {
+.navigation__item:not(:last-child) {
   margin-right: 50px;
 }
 .nav {
