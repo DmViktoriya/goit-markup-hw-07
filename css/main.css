@@ -928,7 +928,7 @@ p {
   border-top: none;
 }
 
-.portfolio__text {
+.portfolio__text-overlay {
   color: var(--button-letters-active);
   padding: 63px 24px;
   font-size: 18px;
@@ -960,8 +960,8 @@ p {
 
 .portfolio__item:hover .portfolio__thumb:before,
 .portfolio__item:focus .portfolio__thumb:before,
-.portfolio__item:hover .portfolio__text,
-.portfolio__item:focus .portfolio__text {
+.portfolio__item:hover .portfolio__text-overlay,
+.portfolio__item:focus .portfolio__text-overlay {
   position: absolute;
   top: 0;
   left: 0;
