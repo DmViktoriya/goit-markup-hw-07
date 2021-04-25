@@ -1049,6 +1049,9 @@ p {
 }
 
 .portfolio__item {
+  display: flex;
+  width: 370px;
+  height: 404px;
   flex-basis: calc((100% - (30px * 3)) / 3);
   margin-left: 30px;
   margin-top: 30px;
